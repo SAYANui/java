@@ -3,7 +3,7 @@ public class Typeconvo {
 String num="456";
 int num1=Integer.parseInt(num);
         int myInt = 9;
-        double myDouble = myInt; // Automatic casting: int to double
+        double myDouble = myInt;
 
         System.out.println("Widening Casting:");
         System.out.println("Integer value: " + myInt);      // Outputs 9
@@ -27,7 +27,6 @@ int num1=Integer.parseInt(num);
         float f = 5.67f;
         double d = .1234;
 
-        // The result of the expression is promoted to the largest type (double)
         double result = (f * b) + (i / c) - (d * s);
         System.out.println("-------------------------");
         System.out.println("Result of expression: " + result);
