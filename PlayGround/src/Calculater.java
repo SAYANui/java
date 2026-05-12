@@ -18,7 +18,7 @@ public static void main(String[]args){
 
 
        if(num =='+' || num=='*' || num =='-'|| num=='/'|| num=='%' ){ // first if statement that check all operator
-// input is true , if true next task will perform and get the "ans " //
+// input is true , if true next task will perform and get the "ans" //
            if (num=='+'){
                ans=a+b;
            }
