@@ -46,6 +46,9 @@ public class RevNum {
             String num1 = input.nextLine().trim();
 
             // Use .equalsIgnoreCase for string comparison
+
+
+            // equals() for comparison the strings !!!!!!
             if (num1.equalsIgnoreCase("x")) {
                 break;
             }
