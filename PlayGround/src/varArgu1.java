@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class varArgu1 {
 
     static void main(String[]args) {
@@ -5,7 +7,16 @@ public class varArgu1 {
 
         sum(4,4);
         sum(1, 2, 3, 4, 5); // Outputs 15
+
+           blue(6,7,7);
+
+
         }
+
+
+    public static void blue(int...num){
+        System.out.println(Arrays.toString(num));
+    }
 
 
 
@@ -24,6 +35,7 @@ public class varArgu1 {
             System.out.println("sum:"+total+"\n");
 
         }
+
 
 
     }
