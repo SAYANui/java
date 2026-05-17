@@ -6,6 +6,18 @@ public static void main(String[]args){
 int a=100; // it not give any error as per the block rule (It don't  know about   variable a ) //
     System.out.println("now 2nd time the value is :" +a); // now the value will be 100 after new initialization //
     // this is example of shadowing because it shadowed the  first a !!!!!!!!!!!!!!!
+
+
+
+    {
+        int b= 20; // int b initialized  between  "parenthesis{}" it in the block
+        System.out.println("now the first  value of b is :" +b); // the value  of b now 20//
+    }
+
+    int b=80; // again b is declared after the block initialized with 80 //
+    System.out.println("now the second value of b is :" +b); // The value of b now is 80 , It shadowed the inner b
+
+
 }
 
 
