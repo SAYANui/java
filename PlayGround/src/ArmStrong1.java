@@ -1,6 +1,6 @@
 public class ArmStrong1{
     public static void main(String[] args) {
-        int num = 153;
+        int num = 1634;
 
         // Convert to String just to quickly get the number of digits
         int digits = String.valueOf(num).length();
