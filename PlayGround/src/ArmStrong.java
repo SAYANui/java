@@ -1,27 +1,36 @@
 public class ArmStrong {
 public static void main(String[]args){
 
-    int num=153;
+    int num=5474;
     int num1=num;
+    int ornum=num;
     int ran=0;
     int count=0;
     for(;ran<num1;num1=num1/10){
         count++;
     }
 num1=num;
-    int totalnum=count,ran1=0;
-    int anum=0;
+    int ran1=0;
+
     int bnum=0;
-    for (;num1>ran1;num1=num1%10){
+    for (;num1>ran1;num1=num1/10){
 int rem=num1%10;
+        int totalnum=count;
+int anum=1;
         for(;totalnum>0;totalnum--){
             anum=anum*rem;
         }
+        bnum+=anum;
     }
-    bnum+=anum;
-    num1=num1/10;
-    System.out.println(bnum);
 
+
+    System.out.println(bnum);
+    if(bnum==ornum){
+        System.out.println("the number ia armstrong number");
+    }
+else {
+    System.out.println("the number NOT armstrong number");
+    }
 
 
 
