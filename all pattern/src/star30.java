@@ -5,6 +5,7 @@ public class star30{
 
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
+
                 // Condition to print stars:
                 // 1. i == 0 (Top row)
                 // 2. i == size - 1 (Bottom row)
