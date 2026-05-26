@@ -1,21 +1,10 @@
 public class palindrome {
 
     public static void main(String[]args){
-
-
-
-
-
-
-
-
 palnum(5585);
 palString("sayan");
 
-
-
     }
-
     static void palString(String str1){
         String str=str1;
 String revstring="";
@@ -31,10 +20,7 @@ System.out.println("It is Palindrome");
 }else{
     System.out.println("Not Palindrome");
 }
-
     }
-
-
 
     static void palnum(int realnum) {
         int num = realnum;
