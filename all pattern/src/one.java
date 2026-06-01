@@ -3,6 +3,10 @@ public class one {
         int height = 9; // Total height of the number 1
         int width = 7;  // Total width for the base
 
+
+
+
+
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 // Condition for the top hook/cap of the 1
