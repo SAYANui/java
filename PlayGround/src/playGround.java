@@ -9,7 +9,6 @@ change(a);
 System.out.print(Arrays.toString(a));
 
         }
-
         static void change(int[]arr){
     arr[3]=55;
         }
