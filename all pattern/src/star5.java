@@ -1,6 +1,6 @@
 public class star5 {
     public static void main(String[] args) {
-        int height = 10; // You can change this to make the 'A' bigger or smaller
+        int height = 6; // You can change this to make the 'A' bigger or smaller
         int width = (2 * height) - 1;
 
         for (int i = 0; i < height; i++) {
