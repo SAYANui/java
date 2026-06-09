@@ -10,8 +10,6 @@ Stores the structure count for a world size of 2 layers, 4 rows, and 4 columns.
 
 Counts the total number of structures built across the entire game world.
  */
-
-
 public class game {
     public static void main(String[] args) {
         int[][][] worldGrid = {
