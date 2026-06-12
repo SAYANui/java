@@ -10,7 +10,6 @@ public class StudentGrade{
                 {92, 88, 95},  // Student 1
                 {70, 65, 75}   // Student 2
         };
-
         // 2. Loop through the 2D array to process the data
         // The outer loop iterates through each row (each student)
         for (int i = 0; i < grades.length; i++) {
