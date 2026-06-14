@@ -6,14 +6,10 @@ public class ArrayMinMax {
     public static void main(String[] args) {
         // 1. Initialize a 1D array with some sample data
         int[] numbers = {15, 42, 3, 89, -5, 22, 0};
-
-        // 2. Edge case check: Ensure the array is not empty
         if (numbers.length == 0) {
             System.out.println("The array is empty.");
             return;
         }
-
-        // 3. Assume the first element is both the min and max initially
         int min = numbers[0];
         int max = numbers[0];
 
